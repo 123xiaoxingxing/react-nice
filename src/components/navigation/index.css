@@ -1,0 +1,32 @@
+/**
+* 功能：未定义
+* 日期：2017/10/10
+**/
+
+@charset "UTF-8";
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+main{
+    height: calc(100% - 80px);
+}
+.Navigation ul{
+    width:100%;
+}
+.Navigation ul li{
+    float: left;
+    text-align: center;
+}
+.Navigation ul li>span{
+    font-size: 18px;
+}
+.Navigation{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(253,253,252);
+    border-top: 1px solid #b3b3b3;
+    width: 100%;
+}
+html,body,#react-application{
+    height: 100%;
+}

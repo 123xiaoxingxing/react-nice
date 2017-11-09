@@ -1,0 +1,191 @@
+/**
+* 功能：未定义
+* 日期：2017/10/10
+**/
+
+@charset "UTF-8";
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+main{
+    height:800px;
+}
+footer{
+    min-height: 284px;
+    text-align: left;
+    background-color: #000;
+}
+footer section {
+    width: 900px;
+    margin: 0 auto;
+}
+footer dl {
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    width: 16%;
+    margin-top: 46px;
+    text-align: left;
+    vertical-align: top;
+}
+.footer_first {
+    margin-left: -50px;
+    width: 20% !important;
+}
+.footer_second {
+    width: 18%;
+}
+footer dt {
+    font-weight: normal;
+    margin: 5px 0;
+    color: #fff;
+    margin-bottom: 12px;
+}
+footer dd {
+    margin: 5px 0;
+}
+footer dd a {
+    text-decoration: none;
+    color: #666;
+}
+.langouter {
+    position: relative;
+}
+.langbox {
+    cursor: pointer;
+}
+
+.langbox div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.imgCN {
+    background: url(../images/appoverview.png) no-repeat;
+    background-position: -9px -289px;
+    width: 23px;
+    height: 22px;
+}
+.langbox .rightlabel {
+    font-size: 14px;
+    color: #ffffff;
+}
+footer .footer-right {
+    display: inline-block;
+    float: right;
+    width: 19%;
+    text-align: right;
+}
+footer .footer-right .share {
+    font-size: 0;
+    margin: 46px 0 0;
+    text-align: right;
+}
+footer .footer-right .share-links {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+}
+.weixinImg {
+    background: rgba(0, 0, 0, 0) url(../images/appoverview.png) no-repeat scroll -326px -285px;
+}
+.weiboImg {
+    background: rgba(0, 0, 0, 0) url(../images/appoverview.png) no-repeat scroll -404px -285px;
+}
+.facebook {
+    background: rgba(0, 0, 0, 0) url(../images/appoverview.png) no-repeat scroll -366px -285px;
+}
+.twitter {
+    background: rgba(0, 0, 0, 0) url(../images/appoverview.png) no-repeat scroll -285px -285px;
+}
+footer .footer-right .qrcode {
+    margin-top: 30px;
+    width: 140px;
+    height: 154px;
+    background: url(../images/user_qrcode2.png) no-repeat;
+}
+footer .link-exchange-box {
+    clear: both;
+    width: 1004px;
+}
+footer .link-exchange {
+    font-size: 12px;
+    margin: 0 auto;
+}
+footer .link-exchange h5 {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1;
+    display: inline-block;
+    margin: 0;
+}
+footer .link-exchange .tab:nth-child(1) {
+    padding-right: 18px;
+    border-right: 1px solid #999;
+    margin-right: 14px;
+}
+footer .link-exchange .tab {
+    cursor: pointer;
+    color: #666;
+    font-weight: normal;
+}
+footer .copyright {
+    font-size: 14px;
+    line-height: 71px;
+    clear: both;
+    width: 100%;
+    height: 72px;
+    margin-top: 40px;
+    text-align: center;
+    color: #999;
+    border-top: 1px solid #222;
+}
+footer .copyright label {
+    margin-bottom: 0px;
+}
+footer .copyright label a {
+    color: #999!important;
+    text-decoration: none;
+    font-size: inherit;
+    float: initial;
+}
+.starter-template{
+    padding-top: 30px;
+}
+.btn-lg{
+    margin-left: 10px;
+}
+#skip{
+    width: 144px;
+    height: 47px;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+.langouter{
+    position: relative;
+}
+.langbox{
+    width: 144px;
+    height: 47px;
+}
+main{
+    position: relative;
+}
+main>div{
+    width: 100px;
+    height: 100px;
+}
+.backtop{
+    position: fixed;
+    bottom: 398px;
+    right:30px;
+    width: 54px;
+    height: 54px;
+    background: url("../images/1.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+#btnone{
+    margin-left: 657px;
+}
